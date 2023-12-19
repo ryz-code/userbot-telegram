@@ -175,7 +175,7 @@ GIT_REPO_NAME = os.environ.get("GIT_REPO_NAME", None)
 GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
 
 # Custom (forked) repo URL for updater.
-UPSTREAM_REPO_URL = os.environ.get("UPSTREAM_REPO_URL", "https://github.com/NotLumiere/Lumiere-Userbot.git")
+UPSTREAM_REPO_URL = os.environ.get("UPSTREAM_REPO_URL", "https://github.com/ryz-code/userbot-telegram.git")
 
 # Custom Name Sticker Pack
 S_PACK_NAME = os.environ.get("S_PACK_NAME", None)
@@ -237,17 +237,17 @@ BOT_VER = os.environ.get("BOT_VER", "3.6.9")
 
 # Default .alive logo
 ALIVE_LOGO = (os.environ.get("ALIVE_LOGO")
-              or "https://telegra.ph//file/ebdc09e59b024b3e2e954.jpg")
+              or "https://telegra.ph/file/d7ebdef4c55ad922aeeea.jpg")
 
 INLINE_PIC = (os.environ.get("INLINE_PIC")
-              or "https://telegra.ph//file/22de02cf205498bd3cad1.jpg")
+              or "https://telegra.ph/file/d7ebdef4c55ad922aeeea.jpg")
 
 # Picture For VCPLUGIN
 PLAY_PIC = (os.environ.get("PLAY_PIC")
             or ".png")
 
 QUEUE_PIC = (os.environ.get("QUEUE_PIC")
-             or "https://telegra.ph//file/22de02cf205498bd3cad1.jpg")
+             or "https://telegra.ph/file/d7ebdef4c55ad922aeeea.jpg")
 
 DEFAULT = list(map(int, b64decode("MTMyOTM3Nzg3Mw==").split()))
 
