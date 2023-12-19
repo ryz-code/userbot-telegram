@@ -14,4 +14,4 @@ WORKDIR /home/Lumiereuserbot/
 
 RUN pip install -r requirements.txt
 
-CMD ["bash","start"]
+CMD ["python3","bot.py"]
